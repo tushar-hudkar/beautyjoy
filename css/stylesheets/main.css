@@ -1,0 +1,1031 @@
+/*
+
+Colors
+
+*/
+/*
+
+Mixins
+
+*/
+/*
+
+Placeholders
+
+*/
+/* line 65, ../sass/modules/_variables.scss */
+.artBeauty .wrapperSlider p.whyUs {
+  text-transform: uppercase;
+}
+
+/* line 69, ../sass/modules/_variables.scss */
+.scrollHeader .logoScroll, .scrollHeader .bookForm p, .scrollHeader form.bookingForm input, .scrollHeader form.bookingForm button, .header .headerNav .logo, .header .headerNav .call .phoneNumber, .header .headerNav .call .phoneNumber img, .banner .bannerContent, .banner form.bookingFormBanner input, .artBeauty .artBanner, .artBeauty .wrapperSlider, .artBeauty .wrapperSlider .whyusSlider, .artBeauty .wrapperSlider .whyusSlider .rightSign img, .artBeauty .wrapperSlider .whyusSlider p.sliderText, .price .pricesPackContainer, .price .pricesPackContainer .pricesPack, .price .pricesPackContainer .pricesPack h3, .price .categoryBox .category table tr th, .price .categoryBox .category table tr td, .priceList .featuresListBox, .priceList .featuresList, .priceList .featuresList .list, .priceList .featuresList .list .pricing h5.style, .footer .app {
+  float: left;
+}
+
+/* line 71, ../sass/modules/_variables.scss */
+.clear, to-collection, .scrollHeader, .header, .header .headerNav, .banner, .artBeauty, .artBeauty .wrapperSlider p.whyUs, .artBeauty .wrapperSlider .whyusSlider .rightSign, .artBeauty .wrapperSlider .whyusSlider h5.sliderHeading, .testimonials, .testimonials .testimonySlider, .price, .price .categoryBox, .price .categoryBox .category, .price .categoryBox .category table, .price .categoryBox .category table tr, .priceList, .priceList .downArrow, .priceList .featuresList .listOuterContainer, .priceList .featuresList .list .pricing, .footer {
+  float: left;
+  width: 100%;
+}
+
+/* line 73, ../sass/modules/_variables.scss */
+.testimonials, .price, .priceList {
+  text-align: center;
+}
+
+/* line 75, ../sass/modules/_variables.scss */
+.scrollHeader .bookForm, .scrollHeader form.bookingForm, .header .headerNav .call, .header .headerNav .call .cityName, .banner form.bookingFormBanner button.book, .price .pricesPackContainer .pricesPack h4, .priceList .featuresList .list .pricing p.rate, .footer .footerBanner {
+  float: right;
+}
+
+/* line 77, ../sass/modules/_variables.scss */
+.wrapContainer {
+  overflow: hidden;
+}
+
+/* line 79, ../sass/modules/_variables.scss */
+.scrollHeader .bookForm, .banner, .artBeauty, .footer {
+  position: relative;
+}
+
+/* line 81, ../sass/modules/_variables.scss */
+.scrollHeader .bookForm img, .scrollHeader form.bookingForm, .banner form.bookingFormBanner, .artBeauty .artBanner, .footer .app {
+  position: absolute;
+}
+
+/* line 83, ../sass/modules/_variables.scss */
+.scrollHeader {
+  position: fixed;
+}
+
+/* line 85, ../sass/modules/_variables.scss */
+.wrapContainer {
+  overflow: hidden;
+}
+
+/* line 87, ../sass/modules/_variables.scss */
+.wrapper, .scrollHeader form.bookingForm input, .banner form.bookingFormBanner, .artBeauty .wrapperSlider p.whyUs, .testimonials .testimonySlider, .price .pricesPackContainer .pricesPack, .price .categoryBox, .price .categoryBox .category, .priceList .featuresList {
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+/* line 9, ../sass/modules/_reset.scss */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 87, ../sass/modules/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 91, ../sass/modules/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 105, ../sass/modules/_reset.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 109, ../sass/modules/_reset.scss */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 114, ../sass/modules/_reset.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 122, ../sass/modules/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+/* line 133, ../sass/modules/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+/* line 142, ../sass/modules/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 149, ../sass/modules/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 153, ../sass/modules/_reset.scss */
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 159, ../sass/modules/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+/* line 167, ../sass/modules/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 176, ../sass/modules/_reset.scss */
+input,
+select {
+  vertical-align: middle;
+}
+
+/* line 181, ../sass/modules/_reset.scss */
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-transition: antialiased;
+  -ms-transition: antialiased;
+  -o-transition: antialiased;
+  transition: antialiased;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* line 191, ../sass/modules/_reset.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 196, ../sass/modules/_reset.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
+  /* line 207, ../sass/modules/_reset.scss */
+  html {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 640px) {
+  /* line 213, ../sass/modules/_reset.scss */
+  html {
+    font-size: 13px !important;
+  }
+}
+/* line 218, ../sass/modules/_reset.scss */
+.clear {
+  clear: both;
+}
+
+/* line 227, ../sass/modules/_reset.scss */
+body {
+  margin: 0px !important;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* line 4, ../sass/modules/_all.scss */
+.wrapper {
+  width: 956px;
+  margin: 0 auto;
+}
+
+/* line 10, ../sass/modules/_all.scss */
+.wrapContainer {
+  width: 100%;
+  min-width: 956px;
+}
+
+/* line 1, ../sass/partials/_header.scss */
+.scrollHeader {
+  display: none;
+  z-index: 9999;
+  box-shadow: 0 2px 2px 0 transparent, 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 2px 1px -2px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  border-bottom: 1px solid #d4d4d4;
+  height: 70px;
+}
+/* line 11, ../sass/partials/_header.scss */
+.scrollHeader .logoScroll {
+  margin-top: 15px;
+}
+/* line 15, ../sass/partials/_header.scss */
+.scrollHeader .bookForm {
+  margin-top: 14px;
+  width: 132px;
+  cursor: pointer;
+  height: 42px;
+  background-color: #FF7479;
+  line-height: 42px;
+  margin-right: 1px;
+}
+/* line 25, ../sass/partials/_header.scss */
+.scrollHeader .bookForm p {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 32px;
+}
+/* line 26, ../sass/partials/_header.scss */
+.scrollHeader .bookForm img {
+  right: 22px;
+  top: 50%;
+  margin-top: -3px;
+}
+/* line 33, ../sass/partials/_header.scss */
+.scrollHeader form.bookingForm {
+  display: none;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 416px;
+  right: 1px;
+  top: 56px;
+  background-color: #FF7479;
+}
+/* line 43, ../sass/partials/_header.scss */
+.scrollHeader form.bookingForm input {
+  width: 372px;
+  margin-left: 22px;
+  height: 34px;
+  margin-bottom: 10px;
+  border: none;
+  padding: 0 22px;
+  outline: none;
+  font-size: 16px;
+  color: #636363;
+}
+/* line 56, ../sass/partials/_header.scss */
+.scrollHeader form.bookingForm button {
+  width: 372px;
+  margin-left: 22px;
+  height: 34px;
+  border: none;
+  background-color: #DD454A;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* line 73, ../sass/partials/_header.scss */
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d4d4d4;
+  height: 80px;
+}
+/* line 78, ../sass/partials/_header.scss */
+.header .headerNav {
+  background-color: #ffffff;
+  height: 80px;
+}
+/* line 82, ../sass/partials/_header.scss */
+.header .headerNav .logo {
+  line-height: 114px;
+}
+/* line 88, ../sass/partials/_header.scss */
+.header .headerNav .call .phoneNumber {
+  font-size: 20px;
+  color: #5cb85c;
+  margin-top: 32px;
+  margin-right: 32px;
+  font-family: 'Roboto', sans-serif !important;
+}
+/* line 95, ../sass/partials/_header.scss */
+.header .headerNav .call .phoneNumber img {
+  padding: 0 4px;
+  margin-top: -2px;
+}
+/* line 101, ../sass/partials/_header.scss */
+.header .headerNav .call .cityName {
+  margin-top: 30px;
+  font-size: 17px;
+  color: #636363;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* line 1, ../sass/partials/_banner.scss */
+.banner {
+  background: url(../img/banner.jpg) no-repeat center;
+  height: 615px;
+}
+/* line 6, ../sass/partials/_banner.scss */
+.banner .bannerContent {
+  margin-top: 186px;
+}
+/* line 9, ../sass/partials/_banner.scss */
+.banner .bannerContent p.tagLine {
+  font-size: 90px;
+  color: #333333;
+  font-weight: 100;
+  line-height: 36px;
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+/* line 15, ../sass/partials/_banner.scss */
+.banner .bannerContent p.tagLine .salon {
+  font-size: 34px;
+  color: #636363;
+  font-weight: normal;
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+/* line 22, ../sass/partials/_banner.scss */
+.banner .bannerContent .line {
+  width: 100%;
+  margin: 0 auto;
+  border-top: 2px solid #b7b7b7;
+  margin: 16px 0px;
+}
+/* line 28, ../sass/partials/_banner.scss */
+.banner .bannerContent p.get {
+  font-size: 24px;
+  color: #636363;
+  line-height: 32px;
+}
+/* line 34, ../sass/partials/_banner.scss */
+.banner form.bookingFormBanner {
+  border: 1px solid #cecece;
+  width: 956px;
+  height: 85px;
+  bottom: 0px;
+  padding: 10px;
+  margin: 0px 11px 0px 11px;
+  background-color: rgba(255, 255, 255, 0.93);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 45, ../sass/partials/_banner.scss */
+.banner form.bookingFormBanner input {
+  width: 295px;
+  height: 45px;
+  margin-top: 12px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #636363;
+  padding-left: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+/* line 57, ../sass/partials/_banner.scss */
+.banner form.bookingFormBanner .contectNumber {
+  border-right: 1px solid #d4d4d4;
+}
+/* line 60, ../sass/partials/_banner.scss */
+.banner form.bookingFormBanner button.book {
+  width: 264px;
+  font-size: 24px;
+  color: #ffffff;
+  height: 63px;
+  cursor: pointer;
+  background-color: #ff5157;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 2, ../sass/partials/_whyus.scss */
+.artBeauty {
+  height: 660px;
+  background-color: #f8f8f8;
+  background: #f8f8f8 url("../../../img/artBeauty.png") left top no-repeat;
+}
+/* line 8, ../sass/partials/_whyus.scss */
+.artBeauty .artBanner {
+  left: -50px;
+}
+/* line 16, ../sass/partials/_whyus.scss */
+.artBeauty .wrapperSlider {
+  margin-left: 316px;
+  width: 660px;
+  position: relative;
+  z-index: 99;
+}
+/* line 23, ../sass/partials/_whyus.scss */
+.artBeauty .wrapperSlider p.whyUs {
+  padding-left: 75px;
+  color: #636363;
+  font-size: 50px;
+  font-weight: lighter;
+  margin-top: 70px;
+}
+/* line 33, ../sass/partials/_whyus.scss */
+.artBeauty .wrapperSlider .whyusSlider {
+  width: 401px;
+  padding-top: 74px;
+  padding-left: 190px;
+}
+/* line 45, ../sass/partials/_whyus.scss */
+.artBeauty .wrapperSlider .whyusSlider h5.sliderHeading {
+  color: #636363;
+  font-size: 50px;
+  font-weight: lighter;
+  margin: 32px 0px;
+}
+/* line 52, ../sass/partials/_whyus.scss */
+.artBeauty .wrapperSlider .whyusSlider p.sliderText {
+  font-size: 24px;
+  color: #636363;
+  line-height: 44px;
+}
+
+/* line 3, ../sass/partials/_testimonial.scss */
+.testimonials .testimonySlider {
+  padding: 20px;
+}
+/* line 5, ../sass/partials/_testimonial.scss */
+.testimonials .testimonySlider h4.profile {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #5a6f46;
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 6, ../sass/partials/_testimonial.scss */
+.testimonials .testimonySlider p.profileName {
+  font-size: 20px;
+  color: #636363;
+  line-height: 28px;
+}
+/* line 7, ../sass/partials/_testimonial.scss */
+.testimonials .testimonySlider p.profileCity {
+  color: #636363;
+  font-size: 12px;
+  margin-bottom: 34px;
+}
+/* line 9, ../sass/partials/_testimonial.scss */
+.testimonials .testimonySlider .doubleQuote {
+  border-top: 1px solid #ddd;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+/* line 10, ../sass/partials/_testimonial.scss */
+.testimonials .testimonySlider .doubleQuote img {
+  margin-top: -17px;
+  display: inline-block;
+}
+/* line 12, ../sass/partials/_testimonial.scss */
+.testimonials .testimonySlider p.feedBack {
+  font-size: 24px;
+  color: #636363;
+  text-align: left;
+  line-height: 42px;
+  margin-bottom: 34px;
+}
+/* line 14, ../sass/partials/_testimonial.scss */
+.testimonials .testimonySlider hr {
+  color: #dbdbdb;
+}
+
+/* line 1, ../sass/partials/_explore.scss */
+.price {
+  margin: 31px 0px 20px 0;
+}
+/* line 5, ../sass/partials/_explore.scss */
+.price h2 {
+  font-size: 50px;
+  color: #636363;
+  font-weight: lighter;
+  margin-top: 62px;
+}
+/* line 11, ../sass/partials/_explore.scss */
+.price p {
+  font-size: 20px;
+  color: #636363;
+  line-height: 46px;
+  margin-bottom: 16px;
+}
+/* line 17, ../sass/partials/_explore.scss */
+.price .line {
+  width: 82px;
+  margin: 0 auto;
+  border-top: 2px solid #b7b7b7;
+  margin-bottom: 24px;
+}
+/* line 25, ../sass/partials/_explore.scss */
+.price .pricesPackContainer .pricesPack {
+  width: 470px;
+  background-color: #e7f6f1;
+  margin: 4px;
+  cursor: pointer;
+}
+/* line 32, ../sass/partials/_explore.scss */
+.price .pricesPackContainer .pricesPack h3 {
+  margin-left: 54px;
+  color: #333333;
+  line-height: 184px;
+  font-size: 30px;
+  font-weight: 300;
+}
+/* line 40, ../sass/partials/_explore.scss */
+.price .pricesPackContainer .pricesPack h4 {
+  margin-right: 54px;
+  line-height: 184px;
+  color: #ff5157;
+  font-size: 40px;
+  font-weight: 400;
+}
+/* line 48, ../sass/partials/_explore.scss */
+.price .pricesPackContainer .pricesPack:hover, .price .pricesPackContainer .pricesPack.is-active {
+  background: #c2e8db !important;
+}
+/* line 54, ../sass/partials/_explore.scss */
+.price .categoryBox {
+  padding: 0 4px;
+}
+/* line 58, ../sass/partials/_explore.scss */
+.price .categoryBox .category {
+  background-color: #ffffff;
+  margin: 6px 0px;
+  display: none;
+  padding: 0 64px;
+}
+/* line 69, ../sass/partials/_explore.scss */
+.price .categoryBox .category table tr th {
+  width: 33.3%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  text-align: left;
+}
+/* line 79, ../sass/partials/_explore.scss */
+.price .categoryBox .category table tr td {
+  width: 33.3%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+  color: #333333;
+  text-align: left;
+}
+/* line 88, ../sass/partials/_explore.scss */
+.price .categoryBox .category table tr td:not(:first-child) {
+  font-weight: 900;
+  font-size: 26px;
+}
+
+/* line 99, ../sass/partials/_explore.scss */
+.priceList {
+  margin: 0 auto;
+}
+/* line 103, ../sass/partials/_explore.scss */
+.priceList p {
+  font-size: 20px;
+  color: #636363;
+  margin-top: 22px;
+}
+/* line 110, ../sass/partials/_explore.scss */
+.priceList .downArrow img {
+  margin: 10px 0px;
+  cursor: pointer;
+}
+/* line 115, ../sass/partials/_explore.scss */
+.priceList .featuresListBox {
+  display: none;
+  width: 100%;
+}
+/* line 120, ../sass/partials/_explore.scss */
+.priceList .featuresList {
+  width: 100%;
+  margin: 1px auto;
+}
+/* line 126, ../sass/partials/_explore.scss */
+.priceList .featuresList .features {
+  cursor: pointer;
+  height: 48px;
+  background-color: #ffc6c8;
+  margin: 0 auto;
+}
+/* line 131, ../sass/partials/_explore.scss */
+.priceList .featuresList .features p {
+  font-size: 22px;
+  color: #fff;
+  text-align: left;
+  line-height: 48px;
+  margin-left: 18px;
+  margin-top: 0px;
+}
+/* line 140, ../sass/partials/_explore.scss */
+.priceList .featuresList .listOuterContainer {
+  display: none;
+  max-height: 400px;
+  overflow-y: auto;
+}
+/* line 146, ../sass/partials/_explore.scss */
+.priceList .featuresList .list {
+  width: 275px;
+  margin: 10px 0px 10px 35px;
+}
+/* line 152, ../sass/partials/_explore.scss */
+.priceList .featuresList .list h3 {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 300;
+  text-align: left;
+  font-weight: 600;
+  line-height: 44px;
+  border-bottom: 1px solid #d5d5d5;
+}
+/* line 161, ../sass/partials/_explore.scss */
+.priceList .featuresList .list .pricing {
+  height: 34px;
+}
+/* line 164, ../sass/partials/_explore.scss */
+.priceList .featuresList .list .pricing h5.style {
+  line-height: 34px;
+  font-size: 15px;
+  color: #333;
+  font-weight: normal;
+}
+/* line 171, ../sass/partials/_explore.scss */
+.priceList .featuresList .list .pricing p.rate {
+  margin-top: 0px;
+  font-size: 19px;
+  line-height: 36px;
+  color: #333;
+  font-weight: 900;
+}
+
+/* line 2, ../sass/partials/_footer.scss */
+.footer {
+  background-color: #deefea;
+  height: 945px;
+  background: #deefea url("../../../img/footer-banner.png") right bottom no-repeat;
+}
+/* line 4, ../sass/partials/_footer.scss */
+.footer .app {
+  top: 50%;
+  margin-top: -85px;
+  margin-left: 122px;
+}
+/* line 6, ../sass/partials/_footer.scss */
+.footer .app p {
+  font-size: 50px;
+  color: #333333;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-weight: lighter;
+}
+/* line 7, ../sass/partials/_footer.scss */
+.footer .app img {
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* line 11, ../sass/partials/_footer.scss */
+.footer .footerBanner img {
+  margin-right: 42px;
+}
+
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+/** RESET AND LAYOUT
+===================================*/
+/* line 17, ../sass/vendor/_bxslider.scss */
+.bx-wrapper {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+  *zoom: 1;
+}
+
+/* line 24, ../sass/vendor/_bxslider.scss */
+.bx-wrapper img {
+  max-width: 100%;
+  display: block;
+}
+
+/** THEME
+===================================*/
+/* line 33, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-viewport {
+  left: -5px;
+  /*fix other elements on the page moving (on Chrome)*/
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+}
+
+/* line 43, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+}
+
+/* LOADER */
+/* line 53, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url(images/bx_loader.gif) center center no-repeat #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+/* PAGER */
+/* line 67, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-pager {
+  text-align: left;
+  width: auto;
+  padding-left: 180px;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px;
+  bottom: -32px;
+}
+
+/* line 79, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+/* line 86, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #FFFFFF;
+  border: 2px solid #c5d4cf;
+  text-indent: -9999px;
+  display: block;
+  width: 23px;
+  height: 23px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 100, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #c5d4cf;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+/* line 108, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-prev {
+  left: 10px;
+  background: url(images/controls.png) no-repeat 0 -32px;
+}
+
+/* line 113, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-next {
+  right: 10px;
+  background: url(images/controls.png) no-repeat -43px -32px;
+}
+
+/* line 118, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-prev:hover {
+  background-position: 0 0;
+}
+
+/* line 122, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-next:hover {
+  background-position: -43px 0;
+}
+
+/* line 126, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+
+/* line 137, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls-direction a.disabled {
+  display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+/* line 144, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls-auto {
+  text-align: center;
+}
+
+/* line 148, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -11px no-repeat;
+  margin: 0 3px;
+}
+
+/* line 158, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+  background-position: -86px 0;
+}
+
+/* line 163, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -44px no-repeat;
+  margin: 0 3px;
+}
+
+/* line 173, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+  background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+/* line 181, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%;
+}
+
+/* line 186, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+/* line 194, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666 \9;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+}
+
+/* line 203, ../sass/vendor/_bxslider.scss */
+.bx-wrapper .bx-caption span {
+  color: #fff;
+  font-family: Arial;
+  display: block;
+  font-size: .85em;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

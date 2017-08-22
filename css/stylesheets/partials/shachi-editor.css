@@ -1,0 +1,432 @@
+/*
+
+Colors
+
+*/
+/*
+
+Mixins
+
+*/
+/*
+
+Placeholders
+
+*/
+/* line 47, ../../sass/modules/_variables.scss */
+html {
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+/* line 52, ../../sass/modules/_variables.scss */
+.editorChoice .row .quote, .editorChoice .row .card .bottom h6 span {
+  font-weight: 700;
+}
+
+/* line 54, ../../sass/modules/_variables.scss */
+.editorChoice .row .quote span, .editorChoice .row .card .bottom h6, .editorChoice .row .card .bottom iron-icon {
+  font-weight: 400;
+}
+
+/* line 56, ../../sass/modules/_variables.scss */
+.editorChoice h1.heading {
+  text-transform: uppercase;
+}
+
+/* line 60, ../../sass/modules/_variables.scss */
+.editorChoice .row p, .editorChoice .row .card .bottom > div .my-iron, .editorChoice .row .card .bottom h6, .editorChoice .row .card .bottom iron-icon {
+  float: left;
+}
+
+/* line 62, ../../sass/modules/_variables.scss */
+.clear, to-collection, .editorChoice, .editorChoice h1.heading, .editorChoice .row {
+  float: left;
+  width: 100%;
+}
+
+/* line 64, ../../sass/modules/_variables.scss */
+.editorChoice h1.heading {
+  text-align: center;
+}
+
+/* line 66, ../../sass/modules/_variables.scss */
+.editorChoice .row .quote span {
+  float: right;
+}
+
+/* line 68, ../../sass/modules/_variables.scss */
+.wrapper, .wrapper700 {
+  overflow: hidden;
+}
+
+/* line 70, ../../sass/modules/_variables.scss */
+.editorChoice .row .quote, .editorChoice .row .card .top {
+  position: relative;
+}
+
+/* line 72, ../../sass/modules/_variables.scss */
+.editorChoice .row .quote span, .editorChoice .row .card .top paper-fab {
+  position: absolute;
+}
+
+/* line 76, ../../sass/modules/_variables.scss */
+.wrapper, .wrapper700 {
+  overflow: hidden;
+}
+
+/* line 78, ../../sass/modules/_variables.scss */
+.wrapper, .editorChoice .row, .editorChoice .row p {
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+/* line 9, ../../sass/modules/_reset.scss */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 87, ../../sass/modules/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 91, ../../sass/modules/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 105, ../../sass/modules/_reset.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 109, ../../sass/modules/_reset.scss */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 114, ../../sass/modules/_reset.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 122, ../../sass/modules/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+/* line 131, ../../sass/modules/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+/* line 138, ../../sass/modules/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 145, ../../sass/modules/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 149, ../../sass/modules/_reset.scss */
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 155, ../../sass/modules/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+/* line 161, ../../sass/modules/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 170, ../../sass/modules/_reset.scss */
+input,
+select {
+  vertical-align: middle;
+}
+
+/* line 175, ../../sass/modules/_reset.scss */
+html {
+  font-size: 16px;
+  color: #454545;
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+/* line 182, ../../sass/modules/_reset.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 187, ../../sass/modules/_reset.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
+  /* line 190, ../../sass/modules/_reset.scss */
+  html {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 640px) {
+  /* line 196, ../../sass/modules/_reset.scss */
+  html {
+    font-size: 13px !important;
+  }
+}
+/* line 203, ../../sass/modules/_reset.scss */
+.clear {
+  clear: both;
+}
+
+/* line 207, ../../sass/modules/_reset.scss */
+body {
+  margin: 0px !important;
+  padding: 0px;
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+/* line 5, ../../sass/modules/_all.scss */
+.wrapper {
+  max-width: 1020px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 14, ../../sass/modules/_all.scss */
+.wrapper700 {
+  max-width: 700px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 3, ../../sass/partials/shachi-editor.scss */
+.editorChoice {
+  background: #f8f8f8;
+  padding-bottom: 3.125rem;
+}
+/* line 8, ../../sass/partials/shachi-editor.scss */
+.editorChoice paper-shadow {
+  border-radius: 5px;
+}
+/* line 10, ../../sass/partials/shachi-editor.scss */
+.editorChoice h1.heading {
+  font-size: 1.625rem;
+  color: #808080;
+  letter-spacing: 5px;
+  margin-bottom: 1.6rem;
+}
+/* line 22, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row {
+  background: #fff;
+  padding: 1.3rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 29, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .quote {
+  font-size: 1.25rem;
+  color: #454545;
+  padding-right: 22px;
+  border-left: 4px solid #d9d9d9;
+  padding-left: 24px;
+  margin-bottom: 42px;
+}
+/* line 39, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .quote span {
+  text-align: right;
+  font-size: .87rem;
+  color: #808080;
+  border-bottom: none;
+  bottom: -32px;
+  right: 12px;
+}
+/* line 54, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row p {
+  font-size: 1.125rem;
+  margin-top: 24px;
+  padding-right: 22px;
+  color: #808080;
+}
+/* line 63, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card {
+  width: 100%;
+}
+/* line 65, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card .top {
+  padding: 2.5rem 1.875rem 3.75rem 1.875rem;
+  background-color: #ffb64d;
+  border-radius: 5px 5px 0 0;
+}
+/* line 70, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card .top h2 {
+  font-size: 1.75rem;
+  margin: 0px;
+  line-height: 2.4375rem;
+  font-weight: lighter;
+  color: #fff;
+}
+/* line 78, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card .top paper-fab {
+  right: 30px;
+  bottom: -20px;
+  z-index: 99;
+  background: #f6ff00;
+  color: #888;
+}
+/* line 89, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card .bottom {
+  background: #ececec;
+  padding: 1.4375rem 0;
+  border-radius: 0 0 5px 5px;
+}
+/* line 95, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card .bottom > div {
+  width: 100%;
+}
+/* line 100, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card .bottom h6 {
+  margin: 0px;
+  font-size: 1rem;
+}
+/* line 105, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card .bottom h6 span {
+  font-size: 1.625rem;
+}
+/* line 110, ../../sass/partials/shachi-editor.scss */
+.editorChoice .row .card .bottom iron-icon {
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px 0 0;
+}
+
+/*# sourceMappingURL=shachi-editor.css.map */

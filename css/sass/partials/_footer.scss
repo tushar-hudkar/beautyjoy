@@ -1,0 +1,13 @@
+
+.footer{@extend %leftfull; @extend %pos-relative; background-color: #deefea; height:945px; background: #deefea url('../../../img/footer-banner.png') right bottom no-repeat;
+	
+	.app{ @extend %pos-absolute; top:50%; margin-top:-85px;
+		@extend %left;  margin-left: 122px;
+		p{font-size: 50px; color: #333333; font-family: 'Roboto Condensed', sans-serif !important;   font-weight: lighter;}
+		img{margin-top: 20px; cursor: pointer;}
+	}
+	.footerBanner{@extend %right;
+
+	img{ margin-right: 42px;}
+	}
+}

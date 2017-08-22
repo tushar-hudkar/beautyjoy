@@ -1,0 +1,182 @@
+.price {
+    @extend %leftfull;
+    @extend %center;
+    margin: 31px 0px 20px 0;
+    h2 {
+        font-size: 50px;
+        color: #636363;
+        font-weight: lighter;
+        margin-top: 62px;
+    }
+    p {
+        font-size: 20px;
+        color: #636363;
+        line-height: 46px;
+        margin-bottom: 16px;
+    }
+    .line {
+        width: 82px;
+        margin: 0 auto;
+        border-top: 2px solid #b7b7b7;
+        margin-bottom: 24px;
+    }
+    .pricesPackContainer {
+        @extend %left;
+        .pricesPack {
+            @extend %left;
+            width: 470px;
+            background-color: #e7f6f1;
+            margin: 4px;
+            cursor: pointer;
+            @extend %boxsizing;
+            h3 {
+                @extend %left;
+                margin-left: 54px;
+                color: #333333;
+                line-height: 184px;
+                font-size: 30px;
+                font-weight: 300;
+            }
+            h4 {
+                @extend %right;
+                margin-right: 54px;
+                line-height: 184px;
+                color: #ff5157;
+                font-size: 40px;
+                font-weight: 400;
+            }
+            &:hover,
+            &.is-active {
+                background: darken(#e7f6f1, 10%)!important;
+            }
+        }
+    }
+    .categoryBox {
+        @extend %leftfull;
+        @extend %boxsizing;
+        padding: 0 4px;
+        .category {
+            @extend %leftfull;
+            background-color: #ffffff;
+            margin: 6px 0px;
+            display: none;
+            padding: 0 64px;
+            @extend %boxsizing;
+            table {
+                @extend %leftfull;
+                tr {
+                    @extend %leftfull;
+                    th {
+                        @extend %left;
+                        width: 33.3%;
+                        height: 38px;
+                        line-height: 38px;
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #333333;
+                        text-align: left;
+                    }
+                    td {
+                        @extend %left;
+                        width: 33.3%;
+                        height: 38px;
+                        line-height: 38px;
+                        font-size: 18px;
+                        // font-weight: 400;
+                        color: #333333;
+                        text-align: left;
+                        &:not(:first-child) {
+                            font-weight: 900;
+                            font-size: 26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.priceList {
+    @extend %leftfull;
+    @extend %center;
+    margin: 0 auto;
+    p {
+        font-size: 20px;
+        color: #636363;
+        margin-top: 22px;
+    }
+    .downArrow {
+        @extend %leftfull;
+        img {
+            margin: 10px 0px;
+            cursor: pointer;
+        }
+    }
+    .featuresListBox {
+        display: none;
+        @extend %left;
+        width: 100%;
+    }
+    .featuresList {
+        @extend %left;
+        width: 100%;
+        margin: 1px auto;
+        @extend %boxsizing;
+        
+        .features {
+            cursor: pointer;
+            height: 48px;
+            background-color: #ffc6c8;
+            margin: 0 auto;
+            p {
+                font-size: 22px;
+                color: #fff;
+                text-align: left;
+                line-height: 48px;
+                margin-left: 18px;
+                margin-top: 0px;
+            }
+        }
+        .listOuterContainer {
+            @extend %leftfull;
+            display: none;
+            max-height:400px;
+            overflow-y: auto;
+        }
+        .list {
+            width: 275px;
+            @extend %left;
+            // margin-left: 35px;
+            // height: 44px;
+            margin:10px 0px 10px 35px;
+            h3 {
+                font-size: 18px;
+                color: #333333;
+                font-weight: 300;
+                text-align: left;
+                font-weight: 600;
+                line-height: 44px;
+                border-bottom: 1px solid #d5d5d5;
+            }
+            .pricing {
+                @extend %leftfull;
+                height: 34px;
+                h5.style {
+                    @extend %left;
+                    line-height: 34px;
+                    font-size: 15px;
+                    color: #333;
+                    font-weight: normal;
+                }
+                p.rate {
+                    @extend %right;
+                   margin-top: 0px;
+                    font-size: 19px;
+                    line-height: 36px;
+                    color: #333;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+
+.artBeauty {
+    @extend %leftfull;
+    @extend %pos-relative;
+    height: 660px;
+    background-color: #f8f8f8;
+    background: #f8f8f8 url('../../../img/artBeauty.png') left top no-repeat;
+    .artBanner {
+        @extend %left;
+        @extend %pos-absolute;
+        left: -50px;
+        img {
+           
+        }
+    }
+    .wrapperSlider {
+        @extend %left;
+        margin-left: 316px;
+        width:660px;
+        position: relative;
+        z-index: 99;
+       
+        p.whyUs {
+            @extend %leftfull;
+            padding-left:75px;
+            @extend %boxsizing;
+            color: #636363;
+            font-size: 50px;
+            @extend %capital;
+            font-weight: lighter;
+            margin-top: 70px;
+        }
+        .whyusSlider {
+            @extend %left;
+            width: 401px;
+            // height:223px;
+            padding-top: 74px;
+            padding-left: 190px;
+            .rightSign {
+                @extend %leftfull;
+                img {
+                    @extend %left;
+                }
+            }
+            h5.sliderHeading {
+                @extend %leftfull;
+                color: #636363;
+                font-size: 50px;
+                font-weight: lighter;
+                margin: 32px 0px;
+            }
+            p.sliderText {
+                @extend %left;
+                font-size: 24px;
+                color: #636363;
+                line-height: 44px;
+            }
+        }
+    }
+}

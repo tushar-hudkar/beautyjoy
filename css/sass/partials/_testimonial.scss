@@ -1,0 +1,16 @@
+.testimonials{@extend %leftfull; @extend %center;
+	
+	.testimonySlider{@extend %leftfull; padding: 20px; @extend %boxsizing;
+	
+	h4.profile{width: 68px; height: 68px; border-radius: 50%; background-color: #5a6f46; display: inline-block; overflow: hidden;}
+		p.profileName{font-size: 20px; color: #636363; line-height: 28px;}
+		p.profileCity{color: #636363; font-size: 12px; margin-bottom: 34px;}
+
+		.doubleQuote{border-top: 1px solid #ddd;   margin-top: 32px;   margin-bottom: 32px;
+			img{margin-top: -17px; display: inline-block;}
+		}
+		p.feedBack{font-size: 24px; color: #636363; text-align: left;   line-height: 42px; margin-bottom: 34px;}
+
+		hr{color: #dbdbdb;}
+}
+}

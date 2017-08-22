@@ -1,0 +1,113 @@
+.scrollHeader {
+    @extend %leftfull;
+    display: none;
+    @extend %pos-fixed;
+    z-index: 9999;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, -3.86), 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 2px 1px -2px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    border-bottom: 1px solid #d4d4d4;
+    height: 70px;
+
+    .logoScroll {
+        @extend %left;
+          margin-top: 15px;
+    }
+    .bookForm {
+        @extend %right;
+        margin-top: 14px;
+        width: 132px;
+        cursor:pointer;
+        height: 42px;
+        background-color: #FF7479;
+        @extend %pos-relative;
+        line-height: 42px;       
+        margin-right: 1px;
+        p{@extend %left; font-weight: bold; color: #ffffff; font-size: 14px; margin-left: 32px;}
+        img {
+            @extend %pos-absolute;
+            right: 22px;
+            top: 50%;
+            margin-top: -3px;
+        }
+    }
+    form.bookingForm {
+        @extend %right;
+        @extend %pos-absolute;
+        display: none;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 416px;     
+        right: 1px;
+        top: 56px;
+        background-color: #FF7479;
+        input {
+            @extend %left;
+            width: 372px;
+            margin-left: 22px;
+            height: 34px;
+            margin-bottom: 10px;
+            border: none;
+            padding: 0 22px;
+            @extend %boxsizing;
+            outline: none;
+            font-size: 16px;
+  color: #636363;
+        }
+        button {
+            @extend %left;
+            width: 372px;
+            margin-left: 22px;
+            height: 34px;
+            border: none;
+            background-color: #DD454A;
+            outline: none;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.header {
+    @extend %leftfull;
+    background-color: $white;
+    border-bottom: 1px solid #d4d4d4;
+    height: 80px;
+    .headerNav {
+        @extend %leftfull;
+        background-color: $white;
+        height: 80px;
+        .logo {
+            @extend %left;
+            line-height: 114px;
+        }
+        .call {
+            @extend %right;
+            .phoneNumber {
+                @extend %left;
+                font-size: 20px;
+                color: #5cb85c;
+                margin-top: 32px;
+                margin-right: 32px;
+                font-family: 'Roboto', sans-serif !important;
+                img {
+                    @extend %left;
+                    padding: 0 4px;
+                    margin-top: -2px;
+                }
+            }
+            .cityName {
+                @extend %right;
+                margin-top: 30px;
+                font-size: 17px;
+                color: #636363;
+                border: none;
+                outline: none;
+                background-color: #ffffff;
+                font-family: 'Roboto', sans-serif !important;
+            }
+        }
+    }
+}

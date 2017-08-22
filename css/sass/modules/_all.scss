@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'fonts';
+@import 'reset';
+.wrapper {
+    width: 956px;
+    margin: 0 auto;
+    @extend %boxsizing;
+}
+
+.wrapContainer {
+  width: 100%;
+  min-width: 956px;
+  @extend %overflow;
+}

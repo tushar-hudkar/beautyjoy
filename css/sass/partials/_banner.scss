@@ -1,0 +1,73 @@
+.banner {
+    @extend %leftfull;
+    background: url(../img/banner.jpg) no-repeat center;
+    height: 615px;
+    @extend %pos-relative;
+    .bannerContent {
+        @extend %left;
+        margin-top: 186px;
+        p.tagLine {
+            font-size: 90px;
+            color: #333333;
+            font-weight: 100;
+            line-height: 36px;
+            font-family: 'Roboto Condensed', sans-serif !important;
+            .salon {
+                font-size: 34px;
+                color: #636363;
+                font-weight: normal;
+                font-family: 'Roboto Condensed', sans-serif !important;
+            }
+        }
+        .line {
+            width: 100%;
+            margin: 0 auto;
+            border-top: 2px solid #b7b7b7;
+            margin: 16px 0px;
+        }
+        p.get {
+            font-size: 24px;
+            color: #636363;
+            line-height: 32px;
+        }
+    }
+    form.bookingFormBanner {
+        border: 1px solid #cecece;
+        width:956px;
+        height: 85px;
+        bottom: 0px;
+        padding: 10px;
+        @extend %boxsizing;
+        @extend %pos-absolute;
+        margin: 0px 11px 0px 11px;
+        background-color: rgba(255, 255, 255, 0.93);
+        @include border-radius(4px);
+        input {
+            @extend %left;
+            width: 295px;
+            height: 45px;
+            margin-top: 12px;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            color: #636363;
+            padding-left: 10px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+        .contectNumber {
+            border-right: 1px solid #d4d4d4;
+        }
+        button.book {
+            @extend %right;
+            width: 264px;
+            font-size: 24px;
+            color: #ffffff;
+            height: 63px;
+            cursor: pointer;
+            background-color: #ff5157;
+            border: none;
+            outline: none;
+            @include border-radius(4px);
+        }
+    }
+}
